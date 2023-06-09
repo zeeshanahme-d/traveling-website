@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Philosopher';
+    letter-spacing: 1px;
+
+}
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/imge/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.header img {
+    width: 170px;
+    float: left;
+}
+
+.login-btn {
+    width: 120px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+    transition: ease-in-out 0.3s;
+    font-family: 600;
+    font-size: 18px;
+    
+}
+.login-btn:hover{
+    border : 2px solid rgb(255, 5, 255);
+    color: rgb(255, 5, 255);
+    
+}
+
+.header h1 {
+    padding-top: 260px;
+    padding-bottom: 0px;
+    font-size: 55px;
+}
+
+.header p {
+    margin: 18px 0px;
+}
+
+.input-group {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+
+.form-control {
+    border: 0 !important;
+    border-radius: 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+
+.input-group-text {
+    width: 120px;
+    background-image: linear-gradient(#00ff7e, #1f3d90);
+    border: 0 !important;
+    color: #fff !important;
+    padding: 10 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+    margin-top: 10px;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    transition: 0.5s !important;
+}
+.input-group-text:hover{
+    background-image: linear-gradient(#000000, #1f3d90);
+}
+
+/* Features */
+
+.features {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: bold !important;
+}
+.feature-img img{
+width: 100%;
+}
+.price{
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+}
+.feature-img{
+    position: relative;
+}
+.rating{
+    padding: 3px;
+    float: right;
+    background: #fff;
+    right: 0;
+    position: absolute;
+}
+.rating i{
+    font-size: 15px;
+    color: #ff5722;
+}
+.feature-details{
+    padding: 20px;
+    text-align: justify;
+}
+.feature-details h4{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.feature-details i{
+    font-size: 15px;
+    color: #ff5722;
+    margin-right: 5px;
+}
+.feature-box{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+}
+.gallery{
+    padding: 100px 0;
+    background: #efefef;
+}
+.gallery img{
+    width: 100%;
+}
